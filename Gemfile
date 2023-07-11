@@ -71,4 +71,5 @@ group :test do
   gem "webdrivers"
 end
 
-gem 'dotenv-rails', groups: [:development, :test]
+#  handle CORS configuration in config/application.rb
+ gem 'rack-cors'
