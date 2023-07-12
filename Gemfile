@@ -73,3 +73,5 @@ end
 
 #  handle CORS configuration in config/application.rb
 gem 'rack-cors'
+
+gem 'webpacker'
